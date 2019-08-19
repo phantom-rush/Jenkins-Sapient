@@ -4,7 +4,7 @@ pipeline{
 	stages {
 		stage('Compile Stage') {
 			
-			WithMaven(maven: 'maven_3_5_0') {
+			withMaven(maven: 'maven_3_5_0') {
 			
 			}
 		}
